@@ -5,8 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>HANGMAN</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+
+<br><br>
+
+<div class="container">
+    <h1 class="text-center">The Hangman Game</h1>
+    <h3 class="text-center">By Diego Fernandez Fontana</h3>
+
+    <button class="btn btn-primary text-center" id="nuevoJuego">NEW GAME</button>
+
+    <div class="col-md-6" id="game">
+        <h1 id="palabraAdivinar"></h1>
+        <br>
+        <br>
+        <br>
+        <input type="text" name="letra" value="" class="">
+        <button type="button" class="btn btn-outline-primary" id="buttonCheckear" >Search</button>
+        <p class="text-muted">SOLO TOMA LA PRIMER LETRA</p>
+    </div>
+
+</div>
+
+
+
+
     <script src="app.js"></script>
 </body>
 </html>
